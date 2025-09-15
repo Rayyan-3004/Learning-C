@@ -4,9 +4,9 @@ int main()
 {
     char name[20];
     char fcolor[20];
-    int age;
-    float height;
-    char fletter;
+    int age = 0;
+    float height = 0.0;
+    char fletter = '\0';
 
 
     printf("What is your name?\n");
