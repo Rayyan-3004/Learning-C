@@ -53,6 +53,7 @@ int main()
     }else{
         printf("Not eligible for license\n");
                         }
+    return 0;
 
 
 }

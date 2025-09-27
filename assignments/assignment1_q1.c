@@ -5,11 +5,11 @@
 int main()
 
 {
-    float amount_today = 0;                 
-    float daily_limit = 0;                  
-    char normal_use_country[10];            
-    char current_use_country[10];           
-    int transactions_last_hr = 0;           
+    float amount_today = 0;
+    float daily_limit = 0;
+    char normal_use_country[10];
+    char current_use_country[10];
+    int transactions_last_hr = 0;
 
 
     printf("input transaction amount total for the day:\n");
@@ -24,7 +24,7 @@ int main()
     printf("input the country that the last transaction was placed in, in the give format example EU, UK, PK, UAE:\n");
     scanf("%s", &current_use_country);
 
-    printf("input the number of transactions were made in the last hour:\n");
+    printf("input the number of transactions that were made in the last hour:\n");
     scanf("%d", &transactions_last_hr);
 
 
@@ -42,5 +42,5 @@ int main()
     {
         printf("Suspicious transaction found! Too many transactions were made in the past hour.\n");
     }
-
+    return 0;
 }

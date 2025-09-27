@@ -12,17 +12,20 @@ int main()
     printf("Please enter y value\n");
     scanf("%f", &y);
 
-    if (y>0 & x>0) {
-        printf("Your coordinates lie in the 1st quadrant!\n");
+    if (y>0 && x>0) {
+        printf("Your coordinates lie in the 1st quadrant\n");
 
-    } else if(y> 0 & x< 0){
+    } else if(y> 0 && x< 0){
         printf("Your coordinates lie in the 2nd quadrant\n");
 
-    } else if(y<0 & x >0){
+    } else if(y<0 && x <0){
         printf("Your coordinates lie in the 3rd quadrant\n");
 
-    } else {
-        printf("your coordinate lie in the 4th quadrant\n");
-    }
+    } else if(y<0 && x>0) {
+        printf("Your coordinates lie in the 4th quadrant\n");
 
-}
+    } else{
+        printf("Your coordinates do not lie in any quadrant\n");
+    }
+    return 0;
+}   
