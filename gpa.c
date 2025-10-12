@@ -14,6 +14,6 @@ int main()
     scanf("%f", &gpa);
     scanf(" %c", &grade);
 
-    
     return 0;
 }
+
