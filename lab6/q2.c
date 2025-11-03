@@ -14,7 +14,7 @@ int main(){
     int charge_per_day = 3000;
     char ICU;
     printf("Enter the days the person has been admitted for:\n");
-    scanf("%d", days_admitted);
+    scanf("%d", &days_admitted);
     printf("is the person in ICU? Enter Y if yes, N if no.\n");
     scanf(" %c", &ICU);
     
